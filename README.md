@@ -28,12 +28,11 @@ JSX = JavaScript Syntax Extension
 
 must add babel to write html code into a JavaScript code
 
-````
+```
 https://unpkg.com/babel-standalone@6.26.0/babel.min.js  ==>  Babel
 ```
 
-exemple using JSX :
-
+### use JSX
 
 ```
     <script type="text/babel">
@@ -42,4 +41,4 @@ exemple using JSX :
         document.getElementById("react-root")
       );
     </script>
-````
+```
