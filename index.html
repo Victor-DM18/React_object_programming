@@ -12,6 +12,13 @@
       crossorigin
     ></script>
     <script src="https://unpkg.com/babel-standalone@6.26.0/babel.min.js"></script>
+    <script
+      src="https://unpkg.com/react-bootstrap@next/dist/react-bootstrap.min.js"
+      crossorigin
+    ></script>
+    <script>
+      var Alert = ReactBootstrap.Alert;
+    </script>
     <title>React</title>
   </head>
 
@@ -19,7 +26,12 @@
     <div id="react-root"></div>
 
     <script type="text/babel">
-      class Hello extends React.Component {
+
+
+      //Component with class //
+
+
+      /*class Hello extends React.Component {
         render() {
           return (
             <div>
@@ -29,8 +41,8 @@
           );
         }
       }
-
-      class Intro extends React.Component {
+        
+        class Intro extends React.Component {
         render() {
           return (
             <div>
@@ -39,6 +51,27 @@
             </div>
           );
         }
+      }*/
+
+
+      // Functional components //
+
+      const Hello = () => {
+        return(
+          <div>
+              <h1> Hello word ! </h1>
+              <p> I am Victor </p>
+            </div>
+        )
+      }
+
+      const Intro = () => {
+        return(
+          <div>
+              <h2>Welcome to my house</h2>
+              <img src="./image/my_house.jpeg" />
+            </div>
+        )
       }
 
       ReactDOM.render(

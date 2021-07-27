@@ -81,5 +81,29 @@ we can now use the name component into the ReactDOM instead of write all the HTM
   ReactDOM.render(
         <Hello />
         <Intro />,
-        document.getElementById("react-root"));     
+        document.getElementById("react-root"));
+```
+
+## Functional component
+
+We declare a function who `return`
+
+```react
+const Hello = () => {
+        return(
+          <div>
+              <h1> Hello word ! </h1>
+              <p> I am Victor </p>
+            </div>
+        )
+      }
+
+      const Intro = () => {
+        return(
+          <div>
+              <h2>Welcome to my house</h2>
+              <img src="./image/my_house.jpeg" />
+            </div>
+        )
+      }
 ```
