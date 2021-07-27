@@ -47,7 +47,7 @@ You must precise teh type into the `<script>` tag
 
 ## Create a component with `class`
 
-For this we use `React.Component` who contains a `render()`method.
+For this we use `React.Component` which contains a `render()`method.
 This method must `return` something.
 
 exemple of a component with a `class`:
@@ -86,7 +86,7 @@ we can now use the name component into the ReactDOM instead of write all the HTM
 
 ## Functional component
 
-We declare a function who `return`
+We declare a variable `const` which is equal to a function and which  `return` something
 
 ```react
 const Hello = () => {
