@@ -33,7 +33,7 @@ https://unpkg.com/babel-standalone@6.26.0/babel.min.js  ==>  Babel
 
 ```
 
-exeple :
+exemple :
 
 ```javascript
     <div id="react-root"></div>
