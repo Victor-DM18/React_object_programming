@@ -50,7 +50,7 @@ You must precise teh type into the `<script>` tag
 For this we use `React.Component` who contains a `render()`method.
 This method must `return` something.
 
-exemple of a component with a `claaa``
+exemple of a component with a `class`:
 
 ```react
 class Hello extends React.Component {
@@ -65,4 +65,10 @@ class Hello extends React.Component {
       }
 ```
 
-we can now use the name component into the ReactDOM instead of write all the HTML code 
+we can now use the name component into the ReactDOM instead of write all the HTML code :
+
+```react
+  ReactDOM.render(
+        <Hello />,
+        document.getElementById("react-root"));     
+```
