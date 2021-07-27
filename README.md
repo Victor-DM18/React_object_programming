@@ -34,11 +34,11 @@ https://unpkg.com/babel-standalone@6.26.0/babel.min.js  ==>  Babel
 
 ### use JSX
 
-```
+``
     <script type="text/babel">
       ReactDOM.render(
         <h1> Hello world ! </h1>,
         document.getElementById("react-root")
       );
     </script>
-```
+``
