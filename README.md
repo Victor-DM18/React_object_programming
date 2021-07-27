@@ -15,7 +15,33 @@
 <script>
 
 ReactDOM.render( react.createElement (), getElemetById("react-root"))
-react.createElement(ELEMENT, PROPRIETY, ELEMENT'S CHILDREN)
+React.createElement(ELEMENT, PROPRIETY, ELEMENT'S CHILDREN)
 
 </script>
 ```
+
+## render() with JSX
+
+JSX = JavaScript Syntax Extension
+
+### add babel
+
+must add babel to write html code into a JavaScript code
+
+````
+https://unpkg.com/babel-standalone@6.26.0/babel.min.js  ==>  Babel
+
+```
+
+exeple :
+
+```javascript
+    <div id="react-root"></div>
+
+    <script type="text/babel">
+      ReactDOM.render(
+        <h1> Hello world ! </h1>,
+        document.getElementById("react-root")
+      );
+    </script>
+````
