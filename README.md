@@ -30,14 +30,12 @@ must add babel to write html code into a JavaScript code
 
 ````
 https://unpkg.com/babel-standalone@6.26.0/babel.min.js  ==>  Babel
-
 ```
 
-exemple :
+exemple using JSX :
 
-```React
-    <div id="react-root"></div>
 
+```
     <script type="text/babel">
       ReactDOM.render(
         <h1> Hello world ! </h1>,
