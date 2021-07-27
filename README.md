@@ -43,3 +43,26 @@ You must precise teh type into the `<script>` tag
         document.getElementById("react-root")
       );
     </script>
+```
+
+## Create a component with `class`
+
+For this we use `React.Component` who contains a `render()`method.
+This method must `return` something.
+
+exemple of a component with a `claaa``
+
+```react
+class Hello extends React.Component {
+        render() {
+          return (
+            <div>
+              <h1> Hello word ! </h1>
+              <p> I am Victor </p>
+            </div>
+          );
+        }
+      }
+```
+
+we can now use the name component into the ReactDOM instead of write all the HTML code 
