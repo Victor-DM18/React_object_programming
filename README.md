@@ -35,7 +35,7 @@ https://unpkg.com/babel-standalone@6.26.0/babel.min.js  ==>  Babel
 
 exemple :
 
-```javascript
+```React
     <div id="react-root"></div>
 
     <script type="text/babel">
