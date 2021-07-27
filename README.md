@@ -63,12 +63,23 @@ class Hello extends React.Component {
           );
         }
       }
+class Intro extends React.Component {
+        render() {
+          return (
+            <div>
+              <h2>Welcome to my house</h2>
+              <img src="./image/my_house.jpeg" />
+            </div>
+          );
+        }
+      }
 ```
 
 we can now use the name component into the ReactDOM instead of write all the HTML code :
 
 ```react
   ReactDOM.render(
-        <Hello />,
+        <Hello />
+        <Intro />,
         document.getElementById("react-root"));     
 ```

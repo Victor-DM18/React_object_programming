@@ -30,9 +30,24 @@
         }
       }
 
+      class Intro extends React.Component {
+        render() {
+          return (
+            <div>
+              <h2>Welcome to my house</h2>
+              <img src="./image/my_house.jpeg" />
+            </div>
+          );
+        }
+      }
+
       ReactDOM.render(
-        <Hello />, 
-        document.getElementById("react-root"));
+        <div>
+          <Hello />
+          <Intro />
+        </div>,
+        document.getElementById("react-root")
+      );
     </script>
   </body>
 </html>
