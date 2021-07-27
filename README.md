@@ -86,7 +86,7 @@ we can now use the name component into the ReactDOM instead of write all the HTM
 
 ## Functional component
 
-We declare a variable `const` which is equal to a function and which  `return` something
+We declare a variable `const` which is equal to a function and which `return` something
 
 ```react
 const Hello = () => {
@@ -107,3 +107,29 @@ const Hello = () => {
         )
       }
 ```
+
+## style in react
+
+CSS code is use into a `<style>` tag :
+
+- for un elemnt ==> `element{}`
+- for an id ==> `#id{}`
+- for a class ==> `.className{}`
+
+```
+ <style>
+      h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+      }
+      #home{
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .heading{
+        background-color: rgb(17, 112, 221);
+      }
+
+    </style>
+```
+
+Don't forget ! In React `class` ==> `className` 

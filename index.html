@@ -20,6 +20,19 @@
       var Alert = ReactBootstrap.Alert;
     </script>
     <title>React</title>
+    <style>
+      h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+      }
+      #home{
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .heading{
+        background-color: rgb(17, 112, 221);
+      }
+
+    </style>
   </head>
 
   <body>
@@ -58,7 +71,7 @@
 
       const Hello = () => {
         return(
-          <div>
+          <div className="heading">
               <h1> Hello word ! </h1>
               <p> I am Victor </p>
             </div>
@@ -68,7 +81,7 @@
       const Intro = () => {
         return(
           <div>
-              <h2>Welcome to my house</h2>
+              <h2 id="home">Welcome to my house</h2>
               <img src="./image/my_house.jpeg" />
             </div>
         )
