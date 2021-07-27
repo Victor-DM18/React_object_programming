@@ -43,4 +43,3 @@ You must precise teh type into the `<script>` tag
         document.getElementById("react-root")
       );
     </script>
-    ```
